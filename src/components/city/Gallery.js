@@ -2,8 +2,14 @@ import React from 'react';
 import Card from '../city/Card';
 import LargeCard from '../city/LargeCard';
 import Styled from 'styled-components';
+import Global from '../../Global';
 
-const Container = Styled.div``;
+const Container = Styled.div`
+    margin-top: 100px;
+    margin-bottom :20px;
+    color : ${Global.color.body};
+    font-family : ${Global.font.primary};
+`;
 
 class Gallery extends React.Component {
 	render() {
